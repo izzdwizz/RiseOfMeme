@@ -5,11 +5,11 @@ const LandingSection = () => {
   return (
     <div className=" flex flex-col text-black  mt-10 relative  w-full p-12">
       <div className="w-full flex gap-8 justify-start items-start">
-        <div className="text-black font-body w-full flex-col flex gap-8">
-          <h2 className="text-4xl font-normal text-red-800">
+        <div className="text-black font-body w-full flex-col flex ">
+          <h2 className="text-4xl font-normal text-red-800 mb-8">
             the historic rise of memes
           </h2>
-          <p className="text-2xl hidden md:flex ">
+          <p className="text-2xl hidden md:flex  ">
             Verily, in these modern days, there hath arisen a most curious form
             of jest, known to the masses as a "meme." These simple, yet cunning
             pictographs, doth spread with great haste across the vast web of
@@ -18,8 +18,14 @@ const LandingSection = () => {
             capture the spirit of the age, conveying truth or folly in ways more
             potent than a legion’s decree. Thus, the meme, like the scrolls of
             old, doth endure as a tool for the common folk to share mirth and
-            thought alike.{" "}
+            thought alike.
           </p>
+          <span className="w-full justify-end relative text-right mt-4 right-3 font-sans">
+            –{" "}
+            <strong className="font-body font-[400]">
+              Based on Real world Events!
+            </strong>
+          </span>
         </div>
 
         <div className=" w-full relative min-h-max flex flex-col gap-8  -top-20">
@@ -40,7 +46,7 @@ const LandingSection = () => {
             capture the spirit of the age, conveying truth or folly in ways more
             potent than a legion’s decree. Thus, the meme, like the scrolls of
             old, doth endure as a tool for the common folk to share mirth and
-            thought alike.{" "}
+            thought alike.
           </p>
         </div>
       </div>

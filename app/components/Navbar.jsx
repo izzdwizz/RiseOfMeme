@@ -24,7 +24,7 @@ const Navbar = () => {
           className="p-4  w-max cursor-pointer hover:opacity-80"
           href="#about"
         >
-          About Us
+          Community
         </li>
 
         <li
