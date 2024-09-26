@@ -1,7 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import helmet from "../images/helmet.png";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [toggled, setToggled] = useState(false);
@@ -11,7 +13,8 @@ const Navbar = () => {
   };
   return (
     <div className="flex justify-between items-center h-24  w-full mx-auto p-12 text-black/80 font-body z-50">
-      <h1 className="w-full justify-start text-left text-6xl  text-black font-body">
+      <h1 className="w-full justify-start text-left text-6xl flex items-center gap-2 text-black font-body">
+        <Image src={helmet} alt="helm" width={100} height={100} />
         Rise of meme.{" "}
       </h1>
 
