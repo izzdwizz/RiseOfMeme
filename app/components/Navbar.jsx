@@ -20,14 +20,6 @@ const Navbar = () => {
           Home
         </li>
 
-        <li className="p-4 cursor-pointer hover:opacity-80" href="#company">
-          Company
-        </li>
-
-        <li className="p-4 cursor-pointer hover:opacity-80" href="#resources">
-          Resources
-        </li>
-
         <li
           className="p-4  w-max cursor-pointer hover:opacity-80"
           href="#about"
@@ -35,8 +27,11 @@ const Navbar = () => {
           About Us
         </li>
 
-        <li className="p-4 cursor-pointer hover:opacity-80" href="#contact">
-          Contact
+        <li
+          className="p-4 cursor-pointer hover:opacity-80 text-red-700"
+          href="#contact"
+        >
+          Purchase
         </li>
       </ul>
 

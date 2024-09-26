@@ -27,6 +27,7 @@ body {
 
 .wrapper {
   background: radial-gradient(circle, #f5f5dc 0%, #ead49c 70%);
+  /* #fde9b8 */
 }
 @layer utilities {
   .text-balance {
