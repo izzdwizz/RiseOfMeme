@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Roman"; /* Name your font family */
+  src: url("./fonts/roman.ttf"); /* Locate the .ttf file within your directory*/
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -20,6 +25,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.wrapper {
+  background: radial-gradient(circle, #f5f5dc 0%, #ead49c 70%);
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
