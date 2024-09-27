@@ -21,7 +21,7 @@ const Navbar = () => {
           height={100}
           className="md:flex hidden"
         />
-        MEME ORIGINS{" "}
+        <strong className="font-[400] font-serif">$</strong> MEMO{" "}
       </h1>
 
       <ul className="hidden md:flex text-[1.5rem]">
