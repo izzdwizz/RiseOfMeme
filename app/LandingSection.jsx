@@ -63,7 +63,7 @@ const LandingSection = () => {
       setTimeout(() => {
         setIsDisabled(false);
         setDisplayedText(""); // Clears the text
-      }, 1500); // Animation completes after 2.5 seconds
+      }, 700); // Animation completes after 2.5 seconds
     }
   };
 
