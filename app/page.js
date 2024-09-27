@@ -2,6 +2,7 @@ import Image from "next/image";
 import LandingSection from "./LandingSection";
 import Navbar from "./components/Navbar";
 import MemeSection from "./MemeSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <LandingSection />
       <MemeSection />
+      <Footer />
     </div>
   );
 }
