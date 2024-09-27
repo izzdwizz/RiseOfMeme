@@ -29,6 +29,24 @@ body {
   background: radial-gradient(circle, #ead49c 0%, #b63f09 70%);
   /* #fde9b8 */
 }
+
+.arrow {
+  transform: scaleX(-1);
+  animation: bounces 1s infinite;
+}
+
+@keyframes bounces {
+  0%,
+  100% {
+    transform: translateY(-25%) scaleX(-1);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0%) scaleX(-1);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
 .animated-text {
   font-size: 2rem;
   font-weight: bold;

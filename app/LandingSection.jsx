@@ -22,6 +22,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import memeOrigin from "./images/memeOriginMain.jpeg";
+import downarrow from "./images/down1.png";
 
 const LandingSection = () => {
   const textArray = [
@@ -49,6 +50,7 @@ const LandingSection = () => {
 
   const [displayedText, setDisplayedText] = useState("");
   const [isDisabled, setIsDisabled] = useState(false);
+  const [arrow, setArrow] = useState(true);
 
   const handleClick = () => {
     if (!isDisabled) {
@@ -58,7 +60,7 @@ const LandingSection = () => {
 
       // Disable the button for 2.5 seconds
       setIsDisabled(true);
-
+      setArrow(false);
       // Re-enable the button and reset the displayed text after 2.5 seconds
       setTimeout(() => {
         setIsDisabled(false);
@@ -70,6 +72,16 @@ const LandingSection = () => {
   return (
     <div className="flex flex-col text-black items-center justify-center relative w-full min-w-screen min-h-screen p-8 md:p-12">
       {/* Image */}
+      <Image
+        src={downarrow}
+        alt="click arrow"
+        width={200}
+        height={200}
+        objectFit="contain"
+        className={` absolute object-contain top-[30%] md:top-[4rem] h-[100px] w-[100px] md:h-[200px] md:w-[200px] left-[47%] arrow cursor-pointer opacity-80 ${
+          !arrow && "hidden"
+        }`}
+      />
       <div
         className="relative h-[100px] w-[100px] md:w-[200px] md:h-[200px] rounded-md cursor-pointer hover:scale-105 ease-in-out duration-500"
         onClick={handleClick}
