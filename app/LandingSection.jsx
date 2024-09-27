@@ -38,14 +38,23 @@ const LandingSection = () => {
   ];
 
   const [displayedText, setDisplayedText] = useState("");
+  const [isDisabled, setIsDisabled] = useState(false);
 
   const handleClick = () => {
-    // Select a random text from the array
-    const randomIndex = Math.floor(Math.random() * textArray.length);
-    setDisplayedText(textArray[randomIndex].text);
+    if (!isDisabled) {
+      // Select a random text from the array
+      const randomIndex = Math.floor(Math.random() * textArray.length);
+      setDisplayedText(textArray[randomIndex].text);
 
-    // Reset the text after animation finishes
-    setTimeout(() => setDisplayedText(""), 3000); // Set to clear after 3 seconds
+      // Disable the button for 2.5 seconds
+      setIsDisabled(true);
+
+      // Re-enable the button and reset the displayed text after 2.5 seconds
+      setTimeout(() => {
+        setIsDisabled(false);
+        setDisplayedText(""); // Clears the text
+      }, 2500); // Animation completes after 2.5 seconds
+    }
   };
 
   return (
@@ -60,7 +69,9 @@ const LandingSection = () => {
           alt="Meme origin"
           layout="fill"
           objectFit="contain"
-          className="rounded-md shadow-xl hover:shadow-2xl z-50"
+          className={`rounded-md shadow-xl hover:shadow-2xl z-50 ${
+            isDisabled && "cursor-vertical-text"
+          }`}
         />
       </div>
 
