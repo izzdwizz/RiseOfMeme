@@ -5,7 +5,10 @@ import landingImage from "./images/landingMeme.jpeg";
 import secondImage from "./images/meme3.png";
 import firstImage from "./images/meme2.jpeg";
 import fourthImage from "./images/meme4.jpeg";
-// import secondImage from "./images/meme3.png";
+import fifthImage from "./images/meme5.jpeg";
+import sixthImage from "./images/meme5.jpeg";
+import seventhImage from "./images/meme7.jpeg";
+
 import Image from "next/image";
 
 const MemeSection = () => {
@@ -42,6 +45,30 @@ const MemeSection = () => {
         <div className="w-full md:h-[500px] md:min-w-[500px] h-[200px] min-w-[200px] rounded-md shadow-lg hover:scale-105 ease-in-out duration-500 hover:shadow-2xl cursor-pointer relative p-4">
           <Image
             src={fourthImage}
+            layout="fill"
+            alt="meme"
+            className=" object-contain "
+          />
+        </div>
+        <div className="w-full md:h-[500px] md:min-w-[500px] h-[200px] min-w-[200px] rounded-md shadow-lg hover:scale-105 ease-in-out duration-500 hover:shadow-2xl cursor-pointer relative p-4">
+          <Image
+            src={fifthImage}
+            layout="fill"
+            alt="meme"
+            className=" object-contain "
+          />
+        </div>
+        <div className="w-full md:h-[500px] md:min-w-[500px] h-[200px] min-w-[200px] rounded-md shadow-lg hover:scale-105 ease-in-out duration-500 hover:shadow-2xl cursor-pointer relative p-4">
+          <Image
+            src={sixthImage}
+            layout="fill"
+            alt="meme"
+            className=" object-contain "
+          />
+        </div>
+        <div className="w-full md:h-[500px] md:min-w-[500px] h-[200px] min-w-[200px] rounded-md shadow-lg hover:scale-105 ease-in-out duration-500 hover:shadow-2xl cursor-pointer relative p-4">
+          <Image
+            src={seventhImage}
             layout="fill"
             alt="meme"
             className=" object-contain "
