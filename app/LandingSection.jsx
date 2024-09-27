@@ -53,7 +53,7 @@ const LandingSection = () => {
       setTimeout(() => {
         setIsDisabled(false);
         setDisplayedText(""); // Clears the text
-      }, 2500); // Animation completes after 2.5 seconds
+      }, 1500); // Animation completes after 2.5 seconds
     }
   };
 
@@ -69,7 +69,7 @@ const LandingSection = () => {
           alt="Meme origin"
           layout="fill"
           objectFit="contain"
-          className={`rounded-md shadow-xl hover:shadow-2xl z-50 ${
+          className={`rounded-md shadow-xl hover:shadow-2xl ${
             isDisabled && "cursor-vertical-text"
           }`}
         />
@@ -77,7 +77,7 @@ const LandingSection = () => {
 
       {/* Animated Text */}
       {displayedText && (
-        <div className="animated-text absolute top-[50%] left-[50%] font-body font-[300] animate-bounce transform -translate-x-1/2">
+        <div className="animated-text absolute top-[50%] left-[50%] font-body font-[300] text-black/70 animate-bounce transform -translate-x-1/2">
           {displayedText}
         </div>
       )}
