@@ -29,6 +29,27 @@ body {
   background: radial-gradient(circle, #ead49c 0%, #b63f09 70%);
   /* #fde9b8 */
 }
+.animated-text {
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: 0;
+  animation: rise-up 1s ease-in-out forwards;
+}
+
+/* Keyframes for translating, scaling, and fading */
+@keyframes rise-up {
+  0% {
+    transform: translate(-50%, 0) scale(1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1 translate(-50%, -6rem);
+  }
+  100% {
+    transform: translate(-50%, -12rem) scale(1.5);
+    opacity: 1;
+  }
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
