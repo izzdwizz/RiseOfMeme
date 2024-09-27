@@ -35,6 +35,16 @@ const LandingSection = () => {
     { text: "This is fine." },
     { text: "Big mood." },
     { text: "Wholesome 100!" },
+    { text: "LFG" },
+    { text: "4" },
+    { text: "MEMOnics" },
+    { text: "Wen CTO" },
+    { text: "CTO of CTO" },
+    { text: <div className="font-serif">1bn mcap is FUD</div> },
+    { text: "Send it" },
+    { text: "Locked in" },
+    { text: "It's just a meme" },
+    { text: <div className="font-serif">6.9</div> },
   ];
 
   const [displayedText, setDisplayedText] = useState("");
