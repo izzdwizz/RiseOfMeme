@@ -87,7 +87,7 @@ const LandingSection = () => {
 
       {/* Animated Text */}
       {displayedText && (
-        <div className="animated-text absolute top-[50%] left-[50%] font-body font-[300] text-center text-[1rem] md:text-lg text-black/70 animate-bounce transform -translate-x-1/2">
+        <div className="animated-text absolute top-[50%] left-[50%] font-body font-[300] w-full text-center text-[1rem] md:text-lg text-black/70 animate-bounce transform -translate-x-1/2">
           {displayedText}
         </div>
       )}
