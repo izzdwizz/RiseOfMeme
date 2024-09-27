@@ -26,7 +26,7 @@ body {
 }
 
 .wrapper {
-  background: radial-gradient(circle, #f5f5dc 0%, #ead49c 70%);
+  background: radial-gradient(circle, #ead49c 0%, #b63f09 70%);
   /* #fde9b8 */
 }
 @layer utilities {

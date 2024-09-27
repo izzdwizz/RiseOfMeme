@@ -13,8 +13,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "ROME",
-  description: "Explore with us the Rise of Memes",
+  title: "MEMO",
+  description: "Join us as we witness the meme origins",
 };
 
 export default function RootLayout({ children }) {

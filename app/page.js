@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-col wrapper p-4 md:p-8 items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
       <Navbar />
       <LandingSection />
-      <MemeSection />
+
       <Footer />
     </div>
   );

@@ -6,7 +6,7 @@ const Footer = () => {
       <strong className="font-[200] font-serif text-[1rem] md:text-[1.6rem] text-red-800 mr-2">
         © 2024
       </strong>{" "}
-      Rise of memes
+      Meme origins
     </div>
   );
 };
