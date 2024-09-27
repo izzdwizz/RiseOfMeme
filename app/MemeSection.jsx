@@ -6,7 +6,7 @@ import secondImage from "./images/meme3.png";
 import firstImage from "./images/meme2.jpeg";
 import fourthImage from "./images/meme4.jpeg";
 import fifthImage from "./images/meme5.jpeg";
-import sixthImage from "./images/meme5.jpeg";
+import sixthImage from "./images/meme6.jpeg";
 import seventhImage from "./images/meme7.jpeg";
 
 import Image from "next/image";
