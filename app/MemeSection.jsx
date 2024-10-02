@@ -30,12 +30,12 @@ const MemeSection = () => {
         </div>
 
         <p className="md:text-4xl font-rubber w-full md:text-center text-left md:px-[10rem] mt-8">
-          We are donating a % of our profits to wildlife needs <br></br>across
-          the world.
-          <br></br>
+          We are donating a % Fees/Proceeds towards the preservation of aquatic
+          life in their natural habitat
+          {/* <br></br>
           <br></br>
           Starting with support for Khao Kheow Open Zoo, <br></br>the zoo that
-          houses Moo Deng.
+          houses Moo Deng. */}
         </p>
         <div className="w-full justify-center flex">
           <a
