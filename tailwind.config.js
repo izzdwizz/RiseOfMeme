@@ -13,6 +13,9 @@ module.exports = {
       },
       fontFamily: {
         body: ["Roman"],
+        bubble: ["bubble"],
+        rubber: ["Rubber"],
+        cartoon: ["Cartoon"],
       },
     },
   },

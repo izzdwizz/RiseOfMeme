@@ -6,6 +6,22 @@
   font-family: "Roman"; /* Name your font family */
   src: url("./fonts/roman.ttf"); /* Locate the .ttf file within your directory*/
 }
+@font-face {
+  font-family: "Bubble"; /* Name your font family */
+  src: url("./fonts/bubble.ttf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "Cartoon"; /* Name your font family */
+  src: url("./fonts/Cartoon.otf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "Rubber"; /* Name your font family */
+  src: url("./fonts/Rubber.ttf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "Tropic"; /* Name your font family */
+  src: url("./fonts/Tropic.ttf"); /* Locate the .ttf file within your directory*/
+}
 
 :root {
   --background: #ffffff;
@@ -26,7 +42,19 @@ body {
 }
 
 .wrapper {
-  background: radial-gradient(circle, #ead49c 0%, #b63f09 70%);
+  background: radial-gradient(
+    circle,
+    #4dc7ff95 0%,
+    rgba(31, 172, 238, 0.548) 70%
+  );
+  /* #fde9b8 */
+}
+.wrapper2 {
+  background: radial-gradient(
+    circle,
+    #4dc7ffe5 0%,
+    rgba(31, 172, 238, 0.962) 70%
+  );
   /* #fde9b8 */
 }
 
@@ -72,4 +100,42 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* VIDEO SECTION */
+.Video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+  z-index: -10;
+}
+
+.videoDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+}
+
+.videoDiv video {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  opacity: 0.7;
+  z-index: -10;
+}
+
+.videoDiv::after {
+  content: "";
+  position: absolute;
+  background: rgba(10, 84, 107, 0.307);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+  z-index: -10;
 }

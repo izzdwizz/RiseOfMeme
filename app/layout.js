@@ -13,8 +13,9 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "MEMO",
-  description: "Join us as we witness the meme origins",
+  title: "$FUNGIE",
+  description:
+    "Join us as we remember the feats of the World record holder – Fungie",
 };
 
 export default function RootLayout({ children }) {
@@ -23,6 +24,19 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable}  antialiased`}
       >
+        <div className="videoDiv">
+          <video
+            className="Video"
+            src="/video/vid2.mp4"
+            loop
+            autoPlay
+            muted
+            playsInline // Important for autoplaying videos on mobile browsers
+            type="video/mp4"
+          >
+            Your video cannot
+          </video>
+        </div>
         {children}
       </body>
     </html>
