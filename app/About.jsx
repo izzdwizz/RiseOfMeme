@@ -12,7 +12,7 @@ const About = () => {
         {" "}
         <header className="py-16 flex gap-4">
           {" "}
-          <GiDolphin className="text-[#9adaf7e8] md:text-white md:h-[3rem] md:w-[3rem]" />{" "}
+          <GiDolphin className="text-[#9adaf7e8] md:text-[#87daf7]  md:h-[3rem] md:w-[3rem]" />{" "}
           <h2 className="aos-init text-[5rem]">ABOUT FUNGIE</h2>{" "}
         </header>
       </Slide>
