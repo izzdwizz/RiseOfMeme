@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable}  antialiased`}
       >
-        <div className="videoDiv">
+        {/* <div className="videoDiv">
           <video
             className="Video"
             src="/video/vid2.mp4"
@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
           >
             Your video cannot
           </video>
-        </div>
+        </div> */}
         {children}
       </body>
     </html>

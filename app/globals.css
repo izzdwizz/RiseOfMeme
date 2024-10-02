@@ -64,11 +64,50 @@ body {
   /* #fde9b8 */
 }
 .Wrappers {
-  /* position: relative;
-
-  background: radial-gradient(circle, #1c8cc7 0%, #228ac7 70%); */
-
   border-radius: 50% 50% 50% 50% / 70% 70% 100% 100%;
+}
+
+.section-4 .figures {
+  column-count: 3;
+  column-gap: 10px;
+}
+
+.section-4 {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-4 figure {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  /* break-inside: avoid; */
+}
+
+.section-4 figure > img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-4 figure {
+    width: 90%;
+  }
+
+  .section-4 figure > img {
+    width: 100%;
+  }
+
+  .section-4 .figures {
+    column-count: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .Wrappers img:hover {
