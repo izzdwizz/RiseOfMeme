@@ -1,77 +1,61 @@
-// import Image from "next/image";
-// import React from "react";
-// import memeOrigin from "./images/memeOriginMain.jpeg";
-// const LandingSection = () => {
-//   return (
-//     <div className=" flex flex-col text-black items-center md:-mt-10 justify-center  relative  w-full min-w-screen min-h-screen p-8 md:p-12">
-//       <div className="relative h-[100px] w-[100] md:min-w-[200px] md:h-[200px] rounded-md">
-//         <Image
-//           src={memeOrigin}
-//           alt="Meme origin"
-//           layout="fill"
-//           objectFit="contain"
-//           className="cursor-pointer hover:scale-105 ease-in-out duration-500 rounded-md shadow-xl hover:shadow-2xl hover:animate-spin"
-//         />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default LandingSection;
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import memeOrigin from "./images/memeOriginMain.jpeg";
-import downarrow from "./images/down1.png";
+import dolfirst from "./images/dolfirst.png";
+import logo from "./images/dol1.png";
 
 const LandingSection = () => {
-  const textArray = [
-    { text: "Are you winning son?" },
-    { text: "Let's gooo!" },
-    { text: "Much wow!" },
-    { text: "Such meme!" },
-    { text: "Epic win!" },
-    { text: "Incredible!" },
-    { text: "Ayy lmao!" },
-    { text: "This is fine." },
-    { text: "Big mood." },
-    { text: "Wholesome 100!" },
-    { text: "LFG" },
-    { text: "4" },
-    { text: "MEMOnics" },
-    { text: "Wen CTO" },
-    { text: "CTO of CTO" },
-    { text: <div className="font-serif">1bn mcap is FUD</div> },
-    { text: "Send it" },
-    { text: "Locked in" },
-    { text: "It's just a meme" },
-    { text: <div className="font-serif">6.9</div> },
-  ];
-
-  const [displayedText, setDisplayedText] = useState("");
-  const [isDisabled, setIsDisabled] = useState(false);
-  const [arrow, setArrow] = useState(true);
-
-  const handleClick = () => {
-    if (!isDisabled) {
-      // Select a random text from the array
-      const randomIndex = Math.floor(Math.random() * textArray.length);
-      setDisplayedText(textArray[randomIndex].text);
-
-      // Disable the button for 2.5 seconds
-      setIsDisabled(true);
-      setArrow(false);
-      // Re-enable the button and reset the displayed text after 2.5 seconds
-      setTimeout(() => {
-        setIsDisabled(false);
-        setDisplayedText(""); // Clears the text
-      }, 600); // Animation completes after 2.5 seconds
-    }
-  };
-
   return (
-    <div className="flex flex-col text-black items-center justify-center relative w-full min-w-screen min-h-screen p-8 md:p-12">
+    <div className="flex landingWrapper card  flex-col text-white items-center justify-start relative w-full min-w-screen min-h-max h-full p-8 md:p-12">
       {/* Image */}
+
+      <div className="relative md:h-[20rem] md:w-[20rem] rounded-full border-[1rem] border-white p-2 overflow-hidden">
+        <Image
+          src={dolfirst}
+          alt=""
+          layout="fill"
+          className="hover:scale-110 duration-500 ease-in-out"
+        />
+      </div>
+
+      {/* <h2 className="font-rubber text-6xl md:mt-5">$FUNGIESUI</h2>
+       */}
+
+      <h1 className=" mt-6 justify-start text-left text-5xl md:text-[7rem] flex items-center gap-2 text-white cursor-pointer md:text-white font-rubber">
+        <strong className="font-[400] font-rubber ">$</strong> FUNGIE{" "}
+      </h1>
+      <h4 className=" mt-6 md:text-[3rem] font-rubber flex gap-4 items-center">
+        <Image
+          src={logo}
+          alt="helm"
+          width={100}
+          height={100}
+          className="md:flex hidden"
+        />{" "}
+        <span>FUNGIE ON SUI</span>{" "}
+        <Image
+          src={logo}
+          alt="helm"
+          width={100}
+          height={100}
+          className="md:flex hidden scale-x-[-1]"
+        />
+      </h4>
+
+      <div className="w-full flex flex-col md:flex-row gap-8 items-center justify-center font-rubber md:mt-8">
+        <a
+          href="#"
+          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px]"
+        >
+          BUY $FUNGIE
+        </a>
+        <a
+          href="#"
+          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895] hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px]"
+        >
+          DEX SCREENER
+        </a>
+      </div>
     </div>
   );
 };

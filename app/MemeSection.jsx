@@ -13,7 +13,7 @@ import Image from "next/image";
 
 const MemeSection = () => {
   return (
-    <div className="w-full flex md:justify-center justify-start mb-6 md:mb-10">
+    <div className="w-full card flex md:justify-center justify-start mb-6 md:mb-10">
       <div className=" flex flex-col items-start md:grid  md:grid-cols-2 md:grid-flow-row p-8 md:p-16 gap-20 w-full">
         <div className="w-full md:h-[500px] md:min-w-[500px] h-[200px] min-w-[200px] rounded-md shadow-lg hover:scale-105 ease-in-out duration-500 hover:shadow-2xl cursor-pointer relative p-4">
           <Image

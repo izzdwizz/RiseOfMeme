@@ -16,6 +16,8 @@ module.exports = {
         bubble: ["bubble"],
         rubber: ["Rubber"],
         cartoon: ["Cartoon"],
+        tropic: ["Tropic"],
+        fancy: ["Fancy"],
       },
     },
   },
