@@ -32,8 +32,7 @@ const About = () => {
       >
         {" "}
         <p className="aos-init font-rubber md:text-[3rem] md:mt-8 p-[3rem] text-center w-[80%]">
-          ✨Fungie is the cutest record-holding Dolphin on SUI, spreading
-          $FUNGIE to the meme world✨
+          ✨The only Guinness record dolphin Spreading good vibes on Sui ✨
         </p>
       </Fade>
     </div>

@@ -60,7 +60,7 @@ const MemeSection = () => {
         <section className="section-4">
           <div className="figures">
             <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
-              <img src="/images/meme2.jpeg" />
+              <img src="/images/meme1.jpeg" />
             </figure>
             <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
               <img src="/images/meme2.jpeg" />
@@ -74,7 +74,7 @@ const MemeSection = () => {
               <img src="/images/meme4.jpeg" />
             </figure>
 
-            <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
+            {/* <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
               <img src="/images/meme5.jpeg" />
             </figure>
 
@@ -108,7 +108,7 @@ const MemeSection = () => {
 
             <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
               <img src="/images/meme3.jpeg" />
-            </figure>
+            </figure> */}
           </div>
         </section>
         {/* </Slide> */}
