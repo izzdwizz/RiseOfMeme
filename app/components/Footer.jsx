@@ -4,10 +4,34 @@ import React from "react";
 import dolfirst from "../images/dolf5.png";
 import logo from "../images/dol1.png";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
+import { RiTwitterXFill } from "react-icons/ri";
+import { LiaTelegramPlane } from "react-icons/lia";
+// import dexscreener from
 
 const Footer = () => {
   return (
     <div className="flex landingWrapper card  flex-col text-white items-center justify-start relative w-full min-w-screen min-h-max h-full p-8 md:p-12">
+      <div className="flex gap-6 w-full md:gap-8 md:px-[5rem] justify-center md:mt-8">
+        <a
+          href="#"
+          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] md:h-[4rem] md:w-[5rem]"
+        >
+          <img src="/images/dex-screener.svg" alt="" />
+        </a>
+
+        <a
+          href="#"
+          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px]"
+        >
+          <LiaTelegramPlane />
+        </a>
+        <a
+          href="#"
+          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px]"
+        >
+          <RiTwitterXFill className="" />
+        </a>
+      </div>
       <div className="relative md:top-12 md:-left-4 md:h-[22rem] md:w-[22rem]  p-2 overflow-hidden ">
         <Image
           src={dolfirst}

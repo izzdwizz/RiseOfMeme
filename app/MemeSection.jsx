@@ -29,7 +29,7 @@ const MemeSection = () => {
           />
         </div>
 
-        <p className="md:text-4xl font-rubber w-full md:text-center text-left md:px-[10rem] mt-8">
+        <p className="md:text-4xl md:leading-[2.7rem] font-rubber w-full md:text-center text-left md:px-[10rem] mt-8">
           We are donating a % Fees/Proceeds towards the preservation of aquatic
           life in their natural habitat
           {/* <br></br>

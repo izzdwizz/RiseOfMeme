@@ -192,6 +192,7 @@ body {
 /* VIDEO SECTION */
 .Video {
   position: absolute;
+  position: fixed;
   height: 100%;
   width: 100%;
   top: 0;
@@ -219,7 +220,13 @@ body {
 .videoDiv::after {
   content: "";
   position: absolute;
+  position: fixed;
   background: rgba(10, 84, 107, 0.307);
+  background: radial-gradient(
+    circle,
+    #4dc7ff95 0%,
+    rgba(31, 172, 238, 0.548) 70%
+  );
   top: 0;
   bottom: 0;
   right: 0;
