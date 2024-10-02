@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         {/* <div className="videoDiv">
           <video
             className="Video"
-            src="/video/vid2.mp4"
+            src="/video/vid3.mp4"
             loop
             autoPlay
             muted

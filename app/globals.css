@@ -84,6 +84,9 @@ body {
   display: grid;
   grid-template-rows: 1fr auto;
   margin-bottom: 10px;
+
+  background: whitesmoke;
+  padding: 1rem;
   /* break-inside: avoid; */
 }
 
@@ -119,15 +122,18 @@ body {
   transform: scaleX(-1);
   animation: bounces 3s infinite;
 }
-
+.droplet {
+  animation: bounces 2s infinite;
+  scale: calc(0.8);
+}
 @keyframes bounces {
   0%,
   100% {
-    transform: translateY(-25%) scaleX(-1);
+    transform: translateY(-25%) rotate(45deg);
     animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
   50% {
-    transform: translateY(0%) scaleX(-1);
+    transform: translateY(0%) rotate(45deg);
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
