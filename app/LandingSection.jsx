@@ -37,7 +37,7 @@ const LandingSection = () => {
           <strong className="font-[400] font-rubber ">$</strong> FUNGIE{" "}
         </h1>
       </Zoom>
-      <h4 className=" mt-6 md:text-[3rem] font-rubber flex gap-4 items-center">
+      <h4 className=" mt-6 md:text-[3rem] font-rubber flex gap-4 items-center group">
         <Slide direction="left" delay={200} duration={800}>
           {" "}
           <Image
@@ -45,7 +45,7 @@ const LandingSection = () => {
             alt="helm"
             width={100}
             height={100}
-            className="md:flex hidden"
+            className="md:flex hidden group-hover:-rotate-180  ease-in-out duration-1000"
           />{" "}
         </Slide>
         <span>FUNGIE ON SUI</span>{" "}
@@ -56,7 +56,7 @@ const LandingSection = () => {
             alt="helm"
             width={100}
             height={100}
-            className="md:flex hidden scale-x-[-1]"
+            className="md:flex hidden group-hover:rotate-180 ease-in-out duration-1000 scale-x-[-1]"
           />
         </Slide>
       </h4>

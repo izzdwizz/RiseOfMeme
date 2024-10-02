@@ -49,7 +49,7 @@ const MemeSection = () => {
 
       <div className="w-full card flex flex-col items-center md:mt-16 md:justify-center justify-start mb-6 md:mb-10 section4">
         {/* <Slide direction="up" cascade={true} delay={100} duration={800}> */}{" "}
-        <div className="relative md:h-[20rem] md:w-[20rem] rounded-xl shadow-lg border-[0.5px] border-white/70 p-2 overflow-hidden">
+        <div className="relative md:h-[20rem] md:w-[20rem] rounded-xl shadow-lg border-[0.5px] border-white/70 p-2 md:p-8 overflow-hidden">
           <Image
             src={dolfirst}
             alt=""
@@ -88,27 +88,27 @@ const MemeSection = () => {
 
             <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
               <img src="/images/meme2.jpeg" />
+            </figure>*/}
+
+            <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
+              <img src="/images/meme9.jpeg" />
             </figure>
 
             <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
-              <img src="/images/meme2.jpeg" />
+              <img src="/images/meme5.jpeg" />
             </figure>
 
             <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
-              <img src="/images/meme2.jpeg" />
+              <img src="/images/meme6.jpeg" />
             </figure>
 
             <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
-              <img src="/images/meme2.jpeg" />
+              <img src="/images/meme5.jpeg" />
             </figure>
 
             <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
-              <img src="/images/meme2.jpeg" />
+              <img src="/images/meme6.jpeg" />
             </figure>
-
-            <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
-              <img src="/images/meme3.jpeg" />
-            </figure> */}
           </div>
         </section>
         {/* </Slide> */}

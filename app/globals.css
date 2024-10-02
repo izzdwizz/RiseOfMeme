@@ -86,7 +86,8 @@ body {
   margin-bottom: 10px;
 
   background: whitesmoke;
-  padding: 1rem;
+  background: transparent;
+  /* padding: 1rem; */
   /* break-inside: avoid; */
 }
 
@@ -139,23 +140,23 @@ body {
 }
 @keyframes dolphin {
   0% {
-    transform: rotate(45deg);
+    transform: rotate(45deg) scale(1);
     /* animation-timing-function: cubic-bezier(0.8, 0, 1, 1); */
   }
   20% {
-    transform: rotate(90deg);
+    transform: rotate(90deg) scale(1.12);
     /* animation-timing-function: cubic-bezier(0.8, 0, 1, 1); */
   }
   40% {
-    transform: rotate(135deg);
+    transform: rotate(135deg) scale(1.14);
     /* animation-timing-function: cubic-bezier(0.8, 0, 1, 1); */
   }
   60% {
-    transform: rotate(180deg);
+    transform: rotate(180deg) scale(1.14);
     /* animation-timing-function: cubic-bezier(0.8, 0, 1, 1); */
   }
   100% {
-    transform: rotate(180deg);
+    transform: rotate(180deg) scale(1.18);
     animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
 }
