@@ -14,22 +14,22 @@ const MemeSection = () => {
       <div className="w-full flex-col gap-8 items-center justify-center">
         <div className="flex gap-8 w-full md:py-8 md:px-[8rem] flex-row md:flex-row justify-between px-8">
           <Image
-            src={fish2}
+            src="/images/twindolf2.png"
             alt=""
             width={100}
             height={100}
-            className="md:h-[15rem] md:w-[20rem] scale-x-[-1]"
+            className="md:h-[25rem] object-contain md:w-[20rem] scale-x-[-1]"
           />
           <Image
-            src={fish2}
+            src="/images/twindolf2.png"
             alt=""
             width={100}
             height={100}
-            className="md:h-[15rem] md:w-[20rem]"
+            className="md:h-[25rem] object-contain md:w-[20rem]"
           />
         </div>
 
-        <p className="md:text-4xl text-2xl md:leading-[2.7rem] font-rubber w-full md:text-center text-center px-[.75rem] md:px-[10rem] mt-8">
+        <p className="md:text-4xl text-2xl leading-[2.35rem] md:leading-[2.7rem] font-rubber w-full md:text-center text-center px-[.75rem] md:px-[10rem] mt-8">
           We are donating a % Fees/Proceeds towards the preservation of aquatic
           life in their natural habitat
           {/* <br></br>
