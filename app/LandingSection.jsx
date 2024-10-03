@@ -71,7 +71,7 @@ const LandingSection = () => {
             className="md:flex md:h-[100px] md:w-[100px] h-[60px] w-[60px] group-hover:-rotate-180  ease-in-out duration-1000"
           />{" "}
         </Slide>
-        <span>FUNGIE ON SUI</span>{" "}
+        <span className="min-w-max">FUNGIE ON SUI</span>{" "}
         <Slide direction="right" delay={250} duration={800}>
           {" "}
           <Image
@@ -89,20 +89,20 @@ const LandingSection = () => {
         <div className="w-full flex flex-col md:flex-row gap-8 items-center justify-center font-rubber my-[4rem] md:mt-8 md:mb-0">
           <a
             href="#"
-            className="md:text-[1.5rem] text-[1.5rem] text-center  rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
+            className="md:text-[1.5rem] text-[1.5rem] text-center min-w-max  rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
           >
             BUY $FUNGIE
           </a>
           <a
             href="#"
-            className="md:text-[1.5rem] text-[1.5rem] text-center  rounded-[20px] bg-[#10a3e895] hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
+            className="md:text-[1.5rem] text-[1.5rem] text-center min-w-max  rounded-[20px] bg-[#10a3e895] hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
           >
             DEX SCREENER
           </a>
         </div>
       </Fade>
 
-      <div className="md:p-5 border-[.5rem] md:border-[.8rem] md:h-max md:w-max text-center  border-white bg-[#10a3e895] text-2xl md:text-3xl font-rubber fixed md:top-[5rem] top-[3rem] right-[1.2rem] md:right-[2rem] hover:bg-[#5bc4f5e8] duration-300 ease-in-out cursor-pointer rounded-[0%_100%_100%_100%] rotate-45 droplet ">
+      <div className="md:p-5 p-2 border-[.35rem] md:border-[.8rem] md:h-max md:w-max text-center  border-white bg-[#10a3e895] text-xl md:text-3xl font-rubber fixed md:top-[5rem] top-[3rem] right-[1.2rem] md:right-[2rem] hover:bg-[#5bc4f5e8] duration-300 ease-in-out cursor-pointer rounded-[0%_100%_100%_100%] rotate-45 droplet z-[10000] ">
         BUY <br></br> $FUNGIE <br></br>NOW
       </div>
     </div>
