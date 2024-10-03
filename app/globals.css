@@ -70,7 +70,7 @@ body {
 .section-4 .figures {
   column-count: 3;
   column-gap: 10px;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 .section-4 {
@@ -89,7 +89,7 @@ body {
   background: whitesmoke;
   background: transparent;
   /* padding: 1rem; */
-  /* break-inside: avoid; */
+  break-inside: avoid;
 }
 
 .section-4 figure > img {
@@ -112,6 +112,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .droplet {
+    scale: calc(0.3);
   }
 }
 

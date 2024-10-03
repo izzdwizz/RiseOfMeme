@@ -12,8 +12,10 @@ const About = () => {
         {" "}
         <header className="py-16 flex gap-4">
           {" "}
-          <GiDolphin className="text-[#9adaf7e8] md:text-[#87daf7]  md:h-[3rem] md:w-[3rem]" />{" "}
-          <h2 className="aos-init text-[5rem]">ABOUT FUNGIE</h2>{" "}
+          <GiDolphin className="text-[#87daf7] h-[1.5rem] w-[1.5rem] md:h-[3rem] md:w-[3rem]" />{" "}
+          <h2 className="aos-init text-[2.85rem] md:text-[5rem]">
+            ABOUT FUNGIE
+          </h2>{" "}
         </header>
       </Slide>
       <Slide direction="up" delay={300} duration={1000} triggerOnce={true}>
@@ -31,7 +33,7 @@ const About = () => {
         className="flex items-center justify-center"
       >
         {" "}
-        <p className="aos-init font-rubber md:text-[3rem] md:mt-8 p-[3rem] text-center w-[80%]">
+        <p className="aos-init font-rubber text-2xl md:text-[3rem] md:mt-8 p-[.75rem] md:p-[3rem] text-center w-[80%]">
           ✨The only Guinness record dolphin Spreading good vibes on Sui ✨
         </p>
       </Fade>

@@ -12,7 +12,7 @@ const MemeSection = () => {
   return (
     <div className="flex flex-col gap-8 md:mt-10">
       <div className="w-full flex-col gap-8 items-center justify-center">
-        <div className="flex gap-8 w-full md:py-8 md:px-[8rem] flex-col md:flex-row justify-between">
+        <div className="flex gap-8 w-full md:py-8 md:px-[8rem] flex-row md:flex-row justify-between px-8">
           <Image
             src={fish2}
             alt=""
@@ -29,7 +29,7 @@ const MemeSection = () => {
           />
         </div>
 
-        <p className="md:text-4xl md:leading-[2.7rem] font-rubber w-full md:text-center text-left md:px-[10rem] mt-8">
+        <p className="md:text-4xl text-2xl md:leading-[2.7rem] font-rubber w-full md:text-center text-center px-[.75rem] md:px-[10rem] mt-8">
           We are donating a % Fees/Proceeds towards the preservation of aquatic
           life in their natural habitat
           {/* <br></br>
@@ -37,10 +37,10 @@ const MemeSection = () => {
           Starting with support for Khao Kheow Open Zoo, <br></br>the zoo that
           houses Moo Deng. */}
         </p>
-        <div className="w-full justify-center flex">
+        <div className="w-full mt-8 md:mt-0 justify-center flex">
           <a
             href="#"
-            className=" cursor-pointer w-max uppercase md:mt-[5rem] md:text-[1.8rem] rounded-[20px] bg-[#10a3e895] border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] hover:bg-[#5bc4f5e8] font-rubber flex gap-8  flex-col md:flex-row text-center justify-center"
+            className=" cursor-pointer w-max min-w-[80%] md:min-w-max uppercase md:mt-[5rem] md:text-[1.8rem] text-xl rounded-[20px] bg-[#10a3e895] border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] hover:bg-[#5bc4f5e8] font-rubber flex gap-8  flex-col md:flex-row text-center justify-center"
           >
             Buy now on dex screener
           </a>
@@ -49,7 +49,7 @@ const MemeSection = () => {
 
       <div className="w-full card flex flex-col items-center md:mt-16 md:justify-center justify-start mb-6 md:mb-10 section4">
         {/* <Slide direction="up" cascade={true} delay={100} duration={800}> */}{" "}
-        <div className="relative md:h-[20rem] md:w-[20rem] rounded-xl shadow-lg border-[0.5px] border-white/70 p-2 md:p-8 overflow-hidden">
+        <div className="relative h-[17rem] w-[17rem]  md:h-[20rem] md:w-[20rem] rounded-xl shadow-lg border-[0.5px] border-white/70 p-2 mt-8 md:mt-0  md:p-8 overflow-hidden">
           <Image
             src={dolfirst}
             alt=""
@@ -58,7 +58,7 @@ const MemeSection = () => {
           />
         </div>
         <section className="section-4">
-          <div className="figures">
+          <div className="figures md:p-4 p-2">
             <figure className="aos-init shadow-lg hover:scale-none ease-in-out duration-500 hover:shadow-2xl cursor-pointer">
               <img src="/images/meme1.jpeg" />
             </figure>

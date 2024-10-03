@@ -14,20 +14,20 @@ const Footer = () => {
       <div className="flex gap-6 w-full md:gap-8 md:px-[5rem] justify-center md:mt-8">
         <a
           href="#"
-          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] md:h-[4rem] md:w-[5rem]"
+          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] h-[5rem] w-[5rem] md:h-[4rem] flex items-center md:w-[5rem]"
         >
           <img src="/images/dex-screener.svg" alt="" />
         </a>
 
         <a
           href="#"
-          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px]"
+          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] flex items-center"
         >
           <LiaTelegramPlane />
         </a>
         <a
           href="#"
-          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px]"
+          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] flex items-center"
         >
           <RiTwitterXFill className="" />
         </a>
@@ -49,7 +49,7 @@ const Footer = () => {
           <strong className="font-[400] font-rubber ">$</strong> FUNGIE{" "}
         </h1>
       </Zoom>
-      <h4 className=" mt-6 md:text-[3rem] font-rubber flex gap-4 items-center">
+      <h4 className=" mt-6 md:text-[3rem] text-[1.7rem] text-center py-4 md:py-0 font-rubber flex gap-4 items-center">
         <Slide direction="left" delay={200} duration={800}>
           {" "}
           <Image
@@ -78,13 +78,13 @@ const Footer = () => {
         <div className="w-full flex flex-col md:flex-row gap-8 items-center justify-center font-rubber md:mt-8">
           <a
             href="#"
-            className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px]"
+            className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
           >
             BUY $FUNGIE
           </a>
           <a
             href="#"
-            className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895] hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px]"
+            className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895] hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
           >
             DEX SCREENER
           </a>
