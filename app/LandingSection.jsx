@@ -67,7 +67,7 @@ const LandingSection = () => {
             alt="helm"
             width={100}
             height={100}
-            className="md:flex md:h-[100px] md:w-[100px] h-[60px] w-[60px] group-hover:-rotate-180  ease-in-out duration-1000"
+            className="md:flex md:h-[100px] md:w-[100px] h-[60px] w-[60px] group-hover:-rotate-180  ease-in-out duration-1000 object-contain"
           />{" "}
         </Slide>
         <span className="min-w-max">FUNGIE ON SUI</span>{" "}
@@ -78,7 +78,7 @@ const LandingSection = () => {
             alt="helm"
             width={100}
             height={100}
-            className="md:flex md:h-[100px] md:w-[100px] h-[60px] w-[60px] group-hover:rotate-180 ease-in-out duration-1000 scale-x-[-1]"
+            className="md:flex md:h-[100px] md:w-[100px] h-[60px] w-[60px] group-hover:rotate-180 ease-in-out duration-1000  object-containscale-x-[-1]"
           />
         </Slide>
       </h4>
@@ -101,7 +101,7 @@ const LandingSection = () => {
         </div>
       </Fade>
 
-      <div className="md:p-5 p-2 border-[.35rem] md:border-[.8rem] md:h-max md:w-max text-center  border-white bg-[#10a3e895] text-xl md:text-3xl font-rubber fixed md:top-[5rem] top-[3rem] right-[1.2rem] md:right-[2rem] hover:bg-[#5bc4f5e8] duration-300 ease-in-out cursor-pointer rounded-[0%_100%_100%_100%] rotate-45 droplet z-[10000] ">
+      <div className="md:p-5 p-2 border-[.35rem] md:border-[.8rem] md:h-max md:w-max text-center  border-white bg-[#10a3e895] text-xl md:text-3xl font-rubber fixed md:top-[5rem] top-[1.5rem] right-[1.2rem] md:right-[2rem] hover:bg-[#5bc4f5e8] duration-300 ease-in-out cursor-pointer rounded-[0%_100%_100%_100%] rotate-45 droplet z-[10000] ">
         BUY <br></br> $FUNGIE <br></br>NOW
       </div>
     </div>
