@@ -86,7 +86,7 @@ const LandingSection = () => {
 
       <Fade delay={300} duration={200}>
         {" "}
-        <div className="w-full flex flex-col md:flex-row gap-8 items-center justify-center font-rubber mt-14 md:mt-8">
+        <div className="w-full flex flex-col md:flex-row gap-8 items-center justify-center font-rubber my-[4rem] md:mt-8 md:mb-0">
           <a
             href="#"
             className="md:text-[1.5rem] text-[1.5rem] text-center  rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
