@@ -11,33 +11,33 @@ import { LiaTelegramPlane } from "react-icons/lia";
 const Footer = () => {
   return (
     <div className="flex landingWrapper card  flex-col text-white items-center justify-start relative w-full min-w-screen min-h-max h-full p-8 md:p-12">
-      <div className="flex gap-6 w-full md:gap-8 md:px-[5rem] justify-center md:mt-8">
+      <div className="flex gap-6 w-full md:gap-8 md:px-[5rem]  justify-center md:mt-8">
         <a
           href="#"
-          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] h-[5rem] w-[5rem] md:h-[4rem] flex items-center md:w-[5rem]"
+          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] h-[5rem] w-[5rem] md:h-[6rem] flex items-center md:w-[6rem]"
         >
           <img src="/images/dex-screener.svg" alt="" />
         </a>
 
         <a
           href="#"
-          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] flex items-center"
+          className="md:text-[1.5rem] text-center text-[1.3rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] flex items-center"
         >
-          <LiaTelegramPlane />
+          <LiaTelegramPlane className=" h-8 w-8 md:h-[3rem] md:w-[3rem]" />
         </a>
         <a
           href="#"
-          className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] flex items-center"
+          className="md:text-[1.5rem] text-center text-[1.3rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] flex items-center"
         >
-          <RiTwitterXFill className="" />
+          <RiTwitterXFill className=" h-8 w-8 md:h-[3rem] md:w-[3rem]" />
         </a>
       </div>
-      <div className="relative md:top-12 md:-left-4 md:h-[22rem] md:w-[22rem]  p-2 overflow-hidden ">
+      <div className="relative hidden md:flex md:top-12 md:-left-4 md:h-[22rem] md:w-[22rem]  p-2 overflow-hidden ">
         <Image
           src={dolfirst}
           alt=""
           layout="fill"
-          className="hover:scale-110 duration-500 ease-in-out"
+          className="  hover:scale-110 duration-500 ease-in-out"
         />
       </div>
 
@@ -45,7 +45,7 @@ const Footer = () => {
        */}
 
       <Zoom direction="up" delay={100} duration={700}>
-        <h1 className=" mt-6 justify-start text-left text-5xl md:text-[6rem] flex items-center gap-2 text-white cursor-pointer md:text-white font-rubber">
+        <h1 className="mt-8 md:mt-6 justify-start text-left text-5xl md:text-[6rem] flex items-center gap-2 text-white cursor-pointer md:text-white font-rubber">
           <strong className="font-[400] font-rubber ">$</strong> FUNGIE{" "}
         </h1>
       </Zoom>
@@ -78,13 +78,13 @@ const Footer = () => {
         <div className="w-full flex flex-col md:flex-row gap-8 items-center justify-center font-rubber md:mt-8">
           <a
             href="#"
-            className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
+            className="md:text-[1.5rem] text-[1.35rem] min-w-max rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
           >
             BUY $FUNGIE
           </a>
           <a
             href="#"
-            className="md:text-[1.5rem] rounded-[20px] bg-[#10a3e895] hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
+            className="md:text-[1.5rem] text-[1.35rem] min-w-max rounded-[20px] bg-[#10a3e895] hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
           >
             DEX SCREENER
           </a>
