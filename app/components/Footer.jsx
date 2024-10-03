@@ -26,7 +26,8 @@ const Footer = () => {
           <LiaTelegramPlane className=" h-8 w-8 md:h-[3rem] md:w-[3rem]" />
         </a>
         <a
-          href="#"
+          href="https://x.com/Fungiesui"
+          target="_blank"
           className="md:text-[1.5rem] text-center text-[1.3rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] flex items-center"
         >
           <RiTwitterXFill className=" h-8 w-8 md:h-[3rem] md:w-[3rem]" />
