@@ -5,8 +5,6 @@ import React, { useEffect, useState } from "react";
 import dolfirst from "./images/dolf5.png";
 import logo from "./images/dol1.png";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
-import { RiTwitterXFill } from "react-icons/ri";
-import { LiaTelegramPlane } from "react-icons/lia";
 
 const LandingSection = () => {
   return (
