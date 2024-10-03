@@ -32,9 +32,9 @@ const Footer = () => {
           <RiTwitterXFill className=" h-8 w-8 md:h-[3rem] md:w-[3rem]" />
         </a>
       </div>
-      <div className="relative hidden md:flex md:top-12 md:-left-4 md:h-[22rem] md:w-[22rem]  p-2 overflow-hidden ">
+      <div className="relative hidden md:flex mt-20 md:h-[16rem] md:w-[16rem]  p-2 overflow-hidden ">
         <Image
-          src={dolfirst}
+          src="/images/dolfMain.png"
           alt=""
           layout="fill"
           className="  hover:scale-110 duration-500 ease-in-out"
@@ -60,7 +60,7 @@ const Footer = () => {
             className="md:flex hidden"
           />{" "}
         </Slide>
-        <span>WORLD RECORD HOLDER TOKEN</span>{" "}
+        <span>WORLD RECORD HOLDER DOLPHIN</span>{" "}
         <Slide direction="right" delay={250} duration={800}>
           {" "}
           <Image

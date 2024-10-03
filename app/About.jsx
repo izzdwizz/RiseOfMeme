@@ -33,7 +33,7 @@ const About = () => {
         className="flex items-center justify-center"
       >
         {" "}
-        <p className="aos-init font-rubber text-2xl md:text-[3rem] md:mt-8 p-[.75rem] md:p-[3rem] text-center w-[90%] md:w-[80%] md:mb-0 mb-8">
+        <p className="aos-init font-rubber text-2xl leading-[2.5rem] md:leading-[3.67rem] md:text-[3rem] md:mt-8 p-[.75rem] md:p-[3rem] text-center w-[90%] md:w-[80%] md:mb-0 mb-8">
           ✨The only Guinness record dolphin Spreading good vibes on Sui ✨
         </p>
       </Fade>
