@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import dolfirst from "../images/dolf5.png";
 import logo from "../images/dol1.png";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
@@ -9,6 +9,16 @@ import { LiaTelegramPlane } from "react-icons/lia";
 // import dexscreener from
 
 const Footer = () => {
+  const [clicked, setClicked] = useState(false);
+
+  const CopyCa = () => {
+    setClicked(true);
+    navigator.clipboard.writeText("Calm down boss, token never list");
+
+    setTimeout(() => {
+      setClicked(false);
+    }, 2000);
+  };
   return (
     <div className="flex landingWrapper card  flex-col text-white items-center justify-start relative w-full min-w-screen min-h-max h-full p-8 md:p-12">
       <div className="flex gap-6 w-full md:gap-8 md:px-[5rem]  justify-center md:mt-8">
@@ -20,7 +30,8 @@ const Footer = () => {
         </a>
 
         <a
-          href="#"
+          href="https://t.me/fungiesui"
+          target="_blank"
           className="md:text-[1.5rem] text-center text-[1.3rem] rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] flex items-center"
         >
           <LiaTelegramPlane className=" h-8 w-8 md:h-[3rem] md:w-[3rem]" />
@@ -33,12 +44,12 @@ const Footer = () => {
           <RiTwitterXFill className=" h-8 w-8 md:h-[3rem] md:w-[3rem]" />
         </a>
       </div>
-      <div className="relative hidden md:flex mt-20 md:h-[16rem] md:w-[16rem]  p-2 overflow-hidden ">
+      <div className="relative hidden md:flex mt-20 md:h-[16rem] md:w-[16rem] rounded-full  p-2 overflow-hidden ">
         <Image
           src="/images/dolfMain.png"
           alt=""
           layout="fill"
-          className="  hover:scale-110 duration-500 ease-in-out"
+          className="  hover:scale-110 duration-500 ease-in-out rounded-full"
         />
       </div>
 
@@ -77,12 +88,12 @@ const Footer = () => {
       <Fade delay={300} duration={200}>
         {" "}
         <div className="w-full flex flex-col md:flex-row gap-8 items-center justify-center font-rubber md:mt-8">
-          <a
-            href="#"
+          <span
             className="md:text-[1.5rem] text-[1.35rem] min-w-max rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
+            onClick={CopyCa}
           >
-            BUY $FUNGIE
-          </a>
+            {!clicked ? "BUY $FUNGIE" : "Copied!"}
+          </span>
           <a
             href="#"
             className="md:text-[1.5rem] text-[1.35rem] min-w-max rounded-[20px] bg-[#10a3e895] hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
