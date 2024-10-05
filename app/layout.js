@@ -14,8 +14,7 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "$FUNGIE",
-  description:
-    "Join us as we remember the feats of the World record holder – Fungie",
+  description: "The Guiness Record holding dolphin on Sui",
 };
 
 export default function RootLayout({ children }) {
