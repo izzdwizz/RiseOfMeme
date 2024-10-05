@@ -8,6 +8,16 @@ import logo from "./images/dol1.png";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 
 const LandingSection = () => {
+  const [clicked, setClicked] = useState(false);
+
+  const CopyCa = () => {
+    setClicked(true);
+    navigator.clipboard.writeText("Calm down boss, token never list");
+
+    setTimeout(() => {
+      setClicked(false);
+    }, 2000);
+  };
   return (
     <div className="flex landingWrapper card mb-[5rem] md:mb-0  flex-col text-white items-center justify-start relative w-full min-w-screen min-h-max h-full p-8 md:p-12">
       {/* Image */}
@@ -42,7 +52,7 @@ const LandingSection = () => {
         </a>
       </div> */}
 
-      <div className="relative  mt-20 rounded-full  h-[16rem] w-[16rem] md:h-[20rem] md:w-[20rem]  p-2 overflow-hidden ">
+      <div className="relative  mt-20 md:mt-0 rounded-full  h-[14rem] w-[14rem] md:h-[20rem] md:w-[20rem]  p-2 overflow-hidden ">
         <Image
           src="/images/dolfMain.png"
           alt=""
@@ -89,8 +99,9 @@ const LandingSection = () => {
           <a
             href="#"
             className="md:text-[1.5rem] text-[1.5rem] text-center min-w-max  rounded-[20px] bg-[#10a3e895]  hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_50px_18px] md:p-[17px_25px_14px]"
+            onClick={CopyCa}
           >
-            BUY $FUNGIE
+            {!clicked ? "BUY $FUNGIE" : "Copied!"}
           </a>
           <a
             href="#"
