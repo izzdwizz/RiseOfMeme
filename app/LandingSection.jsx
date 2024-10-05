@@ -12,7 +12,7 @@ const LandingSection = () => {
 
   const CopyCa = () => {
     setClicked(true);
-    navigator.clipboard.writeText("Calm down boss, token never list");
+    navigator.clipboard.writeText("Yet to list");
 
     setTimeout(() => {
       setClicked(false);
