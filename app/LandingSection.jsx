@@ -52,7 +52,7 @@ const LandingSection = () => {
         </a>
       </div> */}
 
-      <div className="relative  mt-20 md:mt-0 rounded-full  h-[14rem] w-[14rem] md:h-[20rem] md:w-[20rem]  p-2 overflow-hidden ">
+      <div className="relative  mt-20 md:mt-0 rounded-full  h-[12rem] w-[12rem] md:h-[20rem] md:w-[20rem]  p-2 overflow-hidden ">
         <Image
           src="/images/dolfMain.png"
           alt=""

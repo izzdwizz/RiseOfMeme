@@ -30,8 +30,8 @@ const MemeSection = () => {
         </div>
 
         <p className="md:text-4xl text-2xl leading-[2.35rem] md:leading-[2.7rem] font-rubber w-full md:text-center text-center px-[.75rem] md:px-[10rem] mt-8">
-          We are donating a % Fees/Proceeds towards the preservation of aquatic
-          life in their natural habitat
+          We're reserving 0.5% of supply for donations towards the preservation
+          of aquatic life in their natural habitat.
           {/* <br></br>
           <br></br>
           Starting with support for Khao Kheow Open Zoo, <br></br>the zoo that
