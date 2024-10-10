@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import landingImage from "./images/ladningMeme.png";
 const LandingSection = () => {
+
+  // MAIN
   return (
     <div className=" flex flex-col text-black  mt-10 relative  w-full p-8 md:p-12">
       <div className="w-full flex flex-col md:flex-row gap-8 justify-start items-start">
