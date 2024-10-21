@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// additional font families
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
